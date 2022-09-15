@@ -1,0 +1,523 @@
+body {
+    background-color: #63D2FF !important;
+}
+
+.container {
+    background-color: #F4F4ED;
+    margin: auto;
+    width: 872px !important;
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    padding: 50px;
+    box-shadow: 9px 18px 78px 15px rgba(0,0,0,0.7);
+    margin-top: 65px;
+}
+.containe{
+    font-size: unset;
+}
+.title{
+    margin-left: 337px;
+}
+
+.del_style {
+    opacity: 0.5;
+}
+.Date{
+    width: 39%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+}
+
+select {
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    cursor: pointer;
+}
+input[type=text]:focus,select:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    /* padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px; */
+    border: 1px solid rgba(81, 203, 238, 1);
+  }
+
+.inputDiv {
+    margin-bottom: 10px;
+    display: flex;
+    position: relative;
+    margin-left: 115px;
+    margin-top: 37px;
+}
+
+.input_date{
+    margin-left: 376px;
+  font-size: 17px;
+    position: absolute;
+    top: 8px;
+ padding-left: 59px;
+}
+#datetimepicker1{
+    width: 177px;
+  
+}
+#datepicker{
+    height: 40px;
+    padding: 0px 0px 0px 15px;
+    border-radius: 8px 0px 0px 8px;
+}
+#CalenderIcon{
+    border-radius: 0px 8px 8px 0px;
+}
+.input {
+    padding: 0.5px 1px;
+    height: 40px;
+    border-radius: 15px;
+    width: 49%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 25px
+}
+
+.add {
+    height: 40px;
+    border-radius: 25px;
+    font-size: 20px;
+    width: 35px;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#todo-list {
+    padding: 0;
+    margin: 0;
+}
+
+.listing-section {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    position: relative;
+    width: 85%;
+    outline: none;
+    border: none;
+    background-color: white;
+    height: 40px;
+    padding: 0px 15px 0px 10px;
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    margin: 10px 0;
+}
+
+.checked.input_txt span:nth-child(1) {
+    text-decoration: line-through;
+}
+
+.todo-selected {
+    height: 28px;
+    font-size: 18px;
+  position: absolute;
+  left: 335px;
+    top: 7px;
+}
+.input-group_edit{
+    display: table;
+    position: absolute;
+ top: 4px;
+    left: 114px;
+    border-collapse: separate;
+}
+
+.listing-section {
+    position: absolute;
+}
+.datetimepicker2 {
+    position: absolute;
+    margin-left: 316px;
+    width: 156px !important;
+    top: 2px;
+    font-family: Arial;
+    font-size: 16px !important;
+    height: 28px !important;
+    color: black !important;
+}
+
+.remove {
+    display: none;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.contain:hover .remove {
+    margin-top: 24px;
+    display: inline-block;
+    position: absolute;
+}
+
+.fa-pencil-alt {
+    right: 40px;
+}
+
+.fa-trash-alt {
+    right: 15px;
+    padding: 0 10px;
+}
+
+.contain:hover {
+    display: block;
+}
+
+.remove:hover {
+    cursor: pointer;
+}
+
+.fa-trash-alt:hover {
+    color: red !important;
+}
+
+.fa-pencil-alt:hover {
+    color: blueviolet !important;
+}
+#CloseIcon{
+    font-size: 18px !important;
+    float:none  !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+}
+#EditIcon{
+    font-size: 18px;   
+}
+#Flag{
+    position: absolute;
+    left: 365px;
+    top: 5px;
+}
+.clearfix{
+    position: absolute;
+    top: 83px;
+    right: 39px;
+}
+
+
+#id01 {
+    border-radius: 5px;
+    padding: 13px 20px;
+   
+    background: white;
+    z-index: 5;
+    position: fixed;
+    right:unset;
+    bottom:unset;
+    top: 25%;
+    left: 50%;
+    transform: translate(-45%, 28%);
+    width: 411px;
+    height: 137px;
+}
+
+.wrong {
+    position: absolute;
+    left: 381px;
+    top: 0px;
+    font-size: 25px;
+    line-height: unset;
+}
+
+.wrong:hover {
+    color: red;
+}
+.Msg{
+    margin: revert;
+    font-size: 18px;
+}
+
+.cancelbtn {
+    color: #4267b2;
+    background: white;
+    border: 2px solid lightgrey;
+    padding: 9px 21px;
+    margin: 0px 135px 0px 235px;
+    border-radius: 8px;
+}
+
+.del {
+    color: white;
+    background: #4267b2;
+    padding: 9px 21px;
+    border-radius: 8px;
+    position: absolute;
+    right: 31px;
+    top: 2px;
+    border: none;
+}
+
+p {
+    font-family: inherit;
+    font-size: larger;
+}
+
+.input_id {
+    float: right;
+    display: none;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 0 2px 0 2px;
+    margin-top: 3px;
+}
+
+.material-icons {
+    float: right;
+    margin-top: 3px;
+}
+
+.hide {
+    display: none;
+}
+
+span:contains("Low") {
+    color: blue;
+}
+
+.high {
+    color: red;
+}
+
+.medium {
+    color: #cccc0f;
+}
+
+.low {
+    color: orange;
+}
+
+#option {
+    font-weight: bold;
+    background-color: limegreen;
+    color: white;
+    border-radius: 3px;
+    padding: 0 4px 0 4px;
+    font-size: initial;
+    margin-left: 70px;
+}
+
+.editable {
+    transition: .5s;
+    font-size: 1.15rem;
+    border: 1px solid;
+    background-color: white;
+    border-radius: 11px;
+    outline: none;
+}
+
+.view {
+    display: inline-block;
+    width: 92%;
+}
+
+.view.hide {
+    display: none;
+}
+
+.edited {
+    display: inline-block;
+    width: 92%;
+    margin-top: 3px;
+}
+
+.edited.hide {
+    display: none;
+}
+
+.editInput {
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    font-family: Arial;
+    font-size: 18px;
+    height: 28px;
+    outline: none;
+    width: 251px;
+    margin-left: 67px;
+    padding-left: 57px;
+}
+
+
+#editInput:focus {
+    
+    font-family: Arial;
+    font-size: 16px;
+    padding: 0 15px 0 15px;
+    width: 100px;
+}
+
+#errorMessage {
+    color: red;
+    margin-left: 214px;
+}
+#selectTodo{
+    margin: 29px 0px 0px 0px !important;
+    right: 1073px;
+}
+
+.input_txt {
+    display: inline-block;
+    position: relative;
+    padding: 5px 10px 10px 10px;
+    outline: none;
+    height: 44px;
+    width: 84%;
+    margin: 15px 0px 0 15px;
+    transition: .5s;
+    font-size: 1.15rem;
+    border: 1px solid;
+    background-color: white;
+    border-radius: 11px;
+}
+.contain{
+    margin-left: 129px;
+}
+.MutipleDelete{
+    display: inline;
+    margin-left: 103px;
+    font-size: 19px;
+    position: absolute;
+    
+    top: 189px;
+}
+
+.input_item {
+    margin-top: 6px;
+    position: absolute;
+    left: 112px;
+    font-size: 18px;
+    padding: 0px 14px 0px 24px;
+    top: 2px;
+}
+
+[data]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+[data]:after {
+    content: attr(data);
+    position: absolute;
+    color: #222;
+    border-radius: 5px;
+    font-family: initial;
+    background-color: whitesmoke;
+    opacity: 0;
+    visibility: hidden;
+    padding: 2px;
+    font-size: initial;
+    margin-top: 18px;
+}
+
+[data] {
+    position: relative;
+}
+
+.switch input {
+    display: none;
+}
+
+.switch {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    position: relative;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 30px;
+    box-shadow: 0 0 0 2px #777, 0 0 4px #777;
+    cursor: pointer;
+    border: 4px solid transparent;
+    overflow: hidden;
+    transition: 0.4s;
+    padding: 0 2px 0 2px;
+    margin-top: 3px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    width: 38%;
+    height: 100%;
+    background-color: #777;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+input:checked+.slider:before {
+    transform: translateX(30px);
+    background-color: #03a9f4;
+}
+
+input:checked+.slider {
+    box-shadow: 0 0 0 2px #03a9f4 , 0 0 8px #03a9f4;
+}
+
+.switch200 .slider:before {
+    width: 200%;
+    transform: translateX(-82px);
+}
+
+.switch200 input:checked+.slider:before {
+    background-color: red;
+}
+
+.switch200 input:checked+.slider {
+    box-shadow: 0 0 0 2px red, 0 0 8px red;
+}
+
+.show {
+    display: table-footer-group;
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.show.hide {
+    display: none !important;
+}
+
+.fa-check:hover {
+    color: green;
+}
+
+.mul_sel {
+    position: relative;
+    top: 31px;
+    font-size: 18px;
+}
+
+.del_all {
+    display: block;
+    position: relative;
+    top: 30px;
+}
+
+.wrap_switch {
+    position: absolute;
+}
