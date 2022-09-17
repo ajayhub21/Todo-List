@@ -441,15 +441,24 @@ class TodoView {
     var Edit_date_wrapper = document.createElement("div");
     Edit_date_wrapper.id = "datepicker1";
     Edit_date_wrapper.classList.add("input-group_edit", "date");
+    var Edit_calendar_icon=document.createElement("label");
+    Edit_calendar_icon.setAttribute("for","calicon"+todoId);
+    Edit_calendar_icon.classList.add("CalIcon");
+    var calendar1 = document.createElement("i");
+    calendar1.classList.add("glyphicon", "glyphicon-calendar");
+
     var Edit_input_date = document.createElement("input");
     Edit_input_date.type = "text";
     Edit_input_date.classList.add("datetimepicker2");
     Edit_input_date.value = date;
     Edit_input_date.classList.add("form-control");
+    Edit_input_date.id="calicon"+todoId;
     // var Edit_calendarSpan = document.createElement("span");
     // Edit_calendarSpan.classList.add("input-group-addon");
     // var Edit_calendar = document.createElement("i");
     // Edit_calendar.classList.add("glyphicon", "glyphicon-calendar");
+    Edit_calendar_icon.appendChild(calendar1);
+    Edit_date_wrapper.appendChild(Edit_calendar_icon);
     Edit_date_wrapper.appendChild(Edit_input_date);
     // Edit_date_wrapper.appendChild(Edit_calendarSpan);
     // Edit_calendarSpan.appendChild(Edit_calendar);

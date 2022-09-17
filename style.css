@@ -5,7 +5,7 @@ body {
 .container {
     background-color: #F4F4ED;
     margin: auto;
-    width: 872px !important;
+    width: 872px;
     border-radius: 8px;
     border: 1px solid #dadce0;
     padding: 50px;
@@ -368,7 +368,7 @@ span:contains("Low") {
     margin-left: 214px;
 }
 #selectTodo{
-    margin: 29px 0px 0px 0px !important;
+    margin: 29px 0px 0px 0px;
     right: 1073px;
 }
 
@@ -520,4 +520,87 @@ input:checked+.slider {
 
 .wrap_switch {
     position: absolute;
+}
+
+@media (max-width:450px){
+
+    .container{
+        width: 490px;
+       
+    }
+    .title {
+        margin-left: 187px;
+    }
+    .MutipleDelete{
+        margin-left: 14px;
+    }
+    .inputDiv{
+        margin-left: 23px;
+    }
+    .contain {
+        margin-left: 47px;
+    }
+    .input_date {
+        margin-left: 158px;
+    }
+    #selectTodo {
+        left: 28px;
+    }
+    .input_item{
+        left: 72px;
+        width: 135px;
+        font-size: 16px;
+    }
+    .input_txt{
+        width: 77%;
+        height: 65px;
+        padding: 7px 10px 10px 10px;
+    }
+    #Flag{
+        left: 184px;
+        font-size: 16px;
+    }
+    .container .remove{
+        margin-top: 36px !important;
+        /* display: inline-block; */
+        position: absolute;
+        /* margin-left: 61px; */
+        display: inline-flex !important;
+
+    }
+    .editInput{
+        width: 135px;
+    margin-left: 0px;
+    }
+    .todo-selected{
+        left: 147px;
+    top: 10px;
+    }
+    .CalIcon{
+        position: absolute;
+    left: 158px;
+    top: 6px;
+    font-size: 20px;
+}
+.datetimepicker2{
+opacity: -2;
+    
+
+    }
+    .xdsoft_datetimepicker{
+        left: 57px !important;
+    top: 317.6px !important;
+    }
+    .input_date{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px){
+.container {
+    width: 872px !important;
+}
+.CalIcon{
+    display: none;
+}
 }

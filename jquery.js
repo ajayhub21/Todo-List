@@ -5,4 +5,5 @@ $(document).ready(function () {
   $(".datetimepicker2").datetimepicker({
     format: "d-m-Y H:i",
   });
+  
 });
