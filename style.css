@@ -571,6 +571,7 @@ input:checked+.slider {
     .editInput{
         width: 135px;
     margin-left: 0px;
+    padding-left: 0px;
     }
     .todo-selected{
         left: 147px;
